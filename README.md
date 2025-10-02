@@ -33,9 +33,6 @@ VEDA 2K25 (2025) is a **MERN Stack Based Web Application** developed to manage e
 ### VEDA 2K25 (Scroll trigger animation):
 <img src="./outputs/2.png" alt="Bus Animation" width="100%">
 
-### Journey of VEDA:
-<img src="./outputs/3.png" alt="Signup Page" width="100%">
-
 ### Events at VEDA
 <img src="./outputs/4.png" alt="User Details" width="100%">
 
