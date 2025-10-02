@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+.infoParent {
+    min-height: 100svh;
+    width: 100%;
+    /* background-color: #070a29; */
+    background: rgb(55,46,120);
+    background: radial-gradient(circle, rgb(41, 35, 91) 0%, rgba(7,10,41,1) 60%);
+
+
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.infoContent {
+    
+
+    height: fit-content;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.thisTitle {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+
+    color: white;
+    font-size: 36px;
+    font-family: "Conthrax", sans-serif;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    border-bottom: solid  white;
+}
+@media screen and (max-width: 400px){
+    .thisTitle {
+        font-size: 32px;
+    }
+}
+
+
+.mainContent {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    /* border-bottom: solid  white; */
+
+}
+.myHeading {
+    margin-bottom: 5px;
+
+    color: white;
+    font-size: 20px;
+    /* font-family: "Cinzel Decorative", serif; */
+    font-family: "Conthrax", sans-serif;
+
+    font-weight: 600 !important;
+    text-align: center;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.innerText {
+    color: white;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    text-align: justify;
+    
+    /* font-family:'Times New Roman', Times, serif ; */
+    
+}
+
+@media screen and (min-width: 1025px) {
+    .innerText {
+        width: 100%;
+    }
+    .venueContent {
+        width: 100%;
+    }
+}
+
+.venueContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-button {
+    padding: 0px 40px !important;
+    margin-top: -10px;
+
+    justify-self: center;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+
+    align-self: center;
+}
+@media screen and (min-width: 1024px){
+    .register-button{
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .venueContent {
+        flex-direction: column;
+    }
+    .register-button {
+        margin-top: 20px;
+        margin-right: 0;
+    }
+}
+
+
+@media screen and (max-width: 450px){
+    .student-coordinators{
+        font-size: 20px;
+      }
+}
+
+.myDataTable {
+    padding: 20px;
+    /* margin: 20px; */
+}
+
+.regulationList {
+    margin-left: 10px;
+    padding: 0;
+    /* list-style-type: disc; */
+
+}
+.regulationList li{
+    list-style-type: disc;
+    padding-bottom: 10px
+}
+.regulationList li:last-child {
+    padding: 0;
+}

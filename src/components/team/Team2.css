@@ -1,0 +1,65 @@
+.team-box .list-social {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.team-box .list-social li {
+    margin: 0 5px;
+}
+
+.team-box .list-social a {
+    display: inline-block;
+    color: #555;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.team-box .list-social a:hover {
+    color: #0077b5;
+}
+
+.team-box .icon-linkedin {
+    font-size: 24px;
+    color: #0077b5;
+}
+
+.team-box .icon-email {
+    font-size: 24px;
+    color: #dd4b39;
+}
+.peddhaparent{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+.Image_box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Co_Image_parent{
+    width: 300px !important;
+    height:300px !important;
+}
+.Co_Image{
+    width: 100%;
+    height:100%;
+}
+
+
+@media only screen and (max-width: 1200px){
+    #cardParent1{
+        width: 400px !important;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .team-box{
+        width:400px !important;
+    }
+    .team-box .image a img{
+        width:400px !important;
+    }
+}

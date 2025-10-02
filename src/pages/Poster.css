@@ -1,0 +1,60 @@
+.myPoster{
+    height: 88svh;
+    width: 100svw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    aspect-ratio: 1/2;
+}
+.myPoster .sub-heading{
+    animation: Fade 1s linear 1;
+}
+.myPoster img{
+    height: 450px;
+    width: 800px;
+    animation: Fade 1s linear 1;
+}
+@keyframes Fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 1030px){
+    .myPoster img{
+        height: 400px;
+        width: 750px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .myPoster img{
+        height: 350px;
+        width: 650px;
+    }
+}
+
+@media only screen and (max-width: 660px){
+    .myPoster img{
+        height: 250px;
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .myPoster img{
+        height: 250px;
+        width: 380px;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    .myPoster img{
+        height: 200px;
+        width: 330px;
+    }
+}

@@ -1,0 +1,229 @@
+.main_team{
+    height: fit-content;
+    width: 100svw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.group_pic{
+    height: fit-content;
+    width: 100svw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    gap: 30px;
+}
+.VedaTeam{
+    border-radius: 15px;
+}
+.para1{
+    color: #BB9EFF;
+    font-size: 20px;
+    font-family: "Conthrax", sans-serif;
+    margin-top: 20px;
+    height: fit-content;
+    width: 500px;
+    border-radius: 10px;
+}
+.para11{
+    font-size: 30px;
+    font-family: "Cinzel Decorative", system-ui;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.para2{
+    font-family: "Conthrax", sans-serif;
+    font-size: 25px;
+}
+.VedaTeam{
+    height: 500px;
+    width: 900px;
+}
+.ind_pic{
+    height: fit-content;
+    width: 100svw;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}
+.vdtname{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Conthrax", sans-serif;
+}
+.vdtpos{
+    font-size: 16px;
+    font-family: monospace;
+}
+.cardMainR{
+    height: 330px;
+    width: 300px;
+    box-shadow: 0px 0px 2px white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+.cardMainR::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.8),
+        transparent
+    );
+    left: -100%;
+}
+.cardMainR:hover::after{
+    animation: Shine 2s ease 1;
+}
+.cardMainR:hover .linkedin, .cardMainR:hover .email{
+    transition: all 0.3s ease;
+    background-color: #7C51FE;
+    color: white;
+}
+.cardMainR img{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+.linkedin{
+    transition: all 0.3s ease;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: transparent;
+}
+.email{
+    transition: all 0.3s ease;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: transparent;
+}
+.mapdiv{
+    height: fit-content;
+    width: 100svw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+@keyframes Shine{
+    from{
+        left: -100%;
+    }
+    to{
+        left: 200%;
+    }
+}
+@media only screen and (max-width: 950px){
+    .group_pic img{
+        height: 400px;
+        width: 700px;
+    }
+}
+@media only screen and (max-width: 750px){
+    .group_pic img{
+        height: 280px;
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 530px){
+    .linkedin, .email{
+        height: 30px;
+        width: 30px;
+        font-size: 16px;
+    }
+
+    .group_pic img{
+        height: 220px;
+        width: 380px;
+    }
+    .para1{
+        width: 300px;
+        font-size: 25px;
+    }
+    .para11{
+        font-size: 40px;
+    }
+    .mapdiv{
+        gap: 15px;
+    }
+    .cardMainR{
+        height: 220px;
+        width: 180px;
+        gap: 3px;
+    }
+    .cardMainR img{
+        height: 160px;
+        width: 160px;
+        border-radius: 10px;
+    }
+    .vdtname{
+        font-size: 14px;
+    }
+    .vdtpos{
+        font-size: 12px;
+        font-family: monospace;
+    }
+}
+@media only screen and (max-width: 385px){
+    .group_pic img{
+        height: 170px;
+        width: 300px;
+    }
+    .para1{
+        width: 300px;
+        font-size: 25px;
+    }
+    .para11{
+        font-size: 30px;
+    }
+    .mapdiv{
+        gap: 10px;
+    }
+    .cardMainR{
+        height: 190px;
+        width: 150px;
+        gap: 7px;
+    }
+    .cardMainR img{
+        height: 130px;
+        width: 130px;
+        border-radius: 10px;
+    }
+    .vdtname{
+        font-size: 12px;
+    }
+}

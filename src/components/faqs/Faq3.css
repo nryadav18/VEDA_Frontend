@@ -1,0 +1,36 @@
+
+.image1 {
+    animation: animate-3 5s linear 0s infinite;
+}
+
+.image1 img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1940px) {
+    .image1 {
+        margin-top: 40%;
+    }
+
+    .image1 img {
+        width: 100%; 
+        max-width: 100%; 
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .image1 img {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .image1 img {
+        width: 100%;
+    }
+}
+.accordion-content {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 12px; 
+}

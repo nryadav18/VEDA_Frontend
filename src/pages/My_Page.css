@@ -1,0 +1,42 @@
+*{
+    user-select: none;
+}
+.Parent{
+    margin-top: -80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80svh;
+    position:relative;
+    font-family: "Cinzel Decorative", system-ui;
+    font-weight: bold;
+}
+
+.parent2{
+    width:100%;
+    height:100svh;   
+}
+.Shadow{
+    text-shadow:
+    2px 2px #808d93,
+
+}
+.Shadow1{
+    filter:drop-shadow(0px 0px 10px #7C50FE);
+}
+
+@media screen and (max-width: 700px) {
+    .Parent {
+        /* margin-top: -80px; */
+        flex-direction: column;
+        margin-top: 50px;
+        line-height: 7rem;
+    }
+    .coma{
+        display: none;
+    }
+    .V, .E, .D, .A, .number {
+        /* font-size: 80px; */
+    }
+}
